@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duc Le</title>
+</head>
+<body>
+    <button onclick="toggleMode(modes.pan)">Toggle Pan</button>
+    <button onclick="toggleMode(modes.drawing)">Toggle Drawing</button>
+    <button onclick="parseObj(canvas)">Parse</button>
+
+    <textarea name="json-detail" id="json-textarea" cols="30" rows="10" placeholder="Json here!"></textarea>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+    <script src="./lib/fabric.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

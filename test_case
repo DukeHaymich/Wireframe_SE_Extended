@@ -1,0 +1,2 @@
+sample testcase 1: [{"height": 100, "width": 200, "posX": 100, "posY": 200}]
+sample testcase 2: [{"height": 100, "width": 200, "posX": 100, "posY": 200},{"height": 100, "width": 200, "posX": 300, "posY": 500}]
