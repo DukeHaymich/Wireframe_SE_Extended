@@ -1,0 +1,80 @@
+* {
+    font-family: "Product Sans", sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Layout */
+body {
+    display: grid;
+    grid-template-areas:
+        'left center right';
+}
+#component-drawer {
+    display: grid;
+    grid-area: left;
+    grid-template-areas:
+        'import export'
+        'panning drawing'
+        'json json'
+        'library library';
+    grid-template-rows: 3em 3em 10em auto;
+    height: 100vh;
+    width: 20vw;
+}
+#component-drawer > button {
+    justify-self: center;
+    align-self: center;
+    height: 2em;
+    width: 8.5vw;
+}
+#import { 
+    grid-area: import;
+    margin: 0 0 0 0.3vw;
+}
+#export {
+    grid-area: export;
+    margin: 0 0.3vw 0 0;
+}
+#panning {
+    grid-area: panning;
+    margin: 0 0 0 0.3vw;
+}
+#drawing {
+    grid-area: drawing;
+    margin: 0 0.3vw 0 0;
+}
+#json {
+    grid-area: json;
+    margin: 1vh 0.9vw 2vh;
+    resize: none;
+}
+#library {
+    grid-area: library;
+    overflow: auto;
+}
+#canvas {
+    grid-area: center;
+    height: 100vh;
+    width: 60vw;
+}
+#property-drawer {
+    grid-area: right;
+    height: 100vh;
+    width: 20vw;
+}
+
+/* Style */
+#component-drawer {
+    background-color: yellow;
+}
+#library {
+    background-color: violet;
+}
+#canvas{
+    background-color: aqua;
+}
+#property-drawer {
+    background-color: tomato;
+}

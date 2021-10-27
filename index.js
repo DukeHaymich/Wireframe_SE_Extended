@@ -1,8 +1,7 @@
 const initCanvas = (id) => {
     return new fabric.Canvas(id, {
-        width: 1000,
-        height: 1000,
-        selection: false,
+        width: window.innerWidth * 0.6,
+        height: window.innerHeight,
     });
 }
 
@@ -11,8 +10,6 @@ const setBackground = (url, canvas) => {
         canvas.backgroundImage = img;
         canvas.renderAll();
     })
-
-    canvas.setBackgroundColor('rgba(240,240,240,0.6)')
 }
 
 const toggleMode = (mode) => {
@@ -62,6 +59,7 @@ const setPanEvents = (canvas) => {
 }
 
 const canvas = initCanvas('canvas');
+// const canvas = document.getElementById('canvas');
 let mousePressed = false;
 
 let currentMode;

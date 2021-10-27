@@ -1,0 +1,2120 @@
+[
+  {
+    "id": 379465,
+    "type": "TEXT",
+    "boardId": 1102,
+    "data": {
+      "bold": true,
+      "size": "S",
+      "text": "Popular stories",
+      "color": {
+        "type": "NEUTRAL",
+        "shade": 900
+      },
+      "width": null,
+      "height": 32,
+      "italic": false,
+      "preset": "Heading",
+      "zIndex": 47,
+      "position": {
+        "x": 152,
+        "y": 179
+      },
+      "underline": false,
+      "lineStyles": null
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379483,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 305,
+      "height": 242,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": -1,
+      "position": {
+        "x": 802,
+        "y": 256
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "M",
+      "backgroundColor": {
+        "type": "WHITE"
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379435,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 1,
+          "iconName": "star",
+          "position": {
+            "x": 30,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379483,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379443,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "id": 89,
+          "mode": "EDGE",
+          "type": "IMAGE",
+          "width": 305,
+          "height": 98,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 2,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "cropWidth": 10000,
+          "direction": "COLUMN",
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": -46
+          },
+          "originalWidth": 305,
+          "originalHeight": 203,
+          "originalPosition": {
+            "x": 0,
+            "y": -52
+          }
+        },
+        "parentId": 379483,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379456,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 4,
+          "iconName": "email",
+          "position": {
+            "x": 91,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379483,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379458,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 3,
+          "position": {
+            "x": 30,
+            "y": 99
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379483,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379463,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "Egypt",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 67,
+          "height": 32,
+          "heihgt": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 5,
+          "position": {
+            "x": 101,
+            "y": 101
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379483,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379482,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": false,
+          "size": "M",
+          "text": "In mollit veniam laborum ad volupta",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 238,
+          "height": 22,
+          "heihgt": 22,
+          "italic": false,
+          "preset": "Body Text",
+          "zIndex": 6,
+          "position": {
+            "x": 30,
+            "y": 149
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379483,
+        "isDeleted": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 379484,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 1440,
+      "height": 103,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": -8,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "NONE",
+      "backgroundColor": {
+        "type": "NEUTRAL",
+        "shade": 800
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379437,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "width": 197,
+          "height": 62,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 2,
+          "position": {
+            "x": 56,
+            "y": 20.5
+          },
+          "cropWidth": 10000,
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": -34
+          },
+          "originalWidth": 197,
+          "originalHeight": 131,
+          "originalPosition": {
+            "x": 0,
+            "y": -34
+          }
+        },
+        "parentId": 379484,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379444,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 1,
+          "position": {
+            "x": 1302,
+            "y": 33.5
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379484,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379459,
+        "type": "TEXTBOX",
+        "boardId": 1102,
+        "data": {
+          "size": "M",
+          "text": "Input text",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "icons": [
+            {
+              "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z\"/></svg>",
+              "iconName": "search",
+              "alignment": "LEFT",
+              "iconStyle": "outlined",
+              "iconSetName": "Material"
+            }
+          ],
+          "label": "Label",
+          "state": "default",
+          "style": "standard",
+          "width": 207,
+          "height": 53,
+          "zIndex": 3,
+          "position": {
+            "x": 1045,
+            "y": 33.5
+          },
+          "borderShade": 550,
+          "enableLabel": false,
+          "borderRadius": "M",
+          "backgroundShade": 700,
+          "enablePlaceholder": false
+        },
+        "parentId": 379484,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379471,
+        "type": "HEADER_MENU",
+        "boardId": 1102,
+        "data": {
+          "size": "M",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "style": "INDICATOR",
+          "width": 451,
+          "height": 38,
+          "zIndex": 4,
+          "position": {
+            "x": 313,
+            "y": 23.5
+          },
+          "verticalSpacing": 0,
+          "horizontalSpacing": 0
+        },
+        "parentId": 379484,
+        "isDeleted": false,
+        "children": [
+          {
+            "id": 379487,
+            "type": "HEADER_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "icon": null,
+              "text": "Menu 3",
+              "order": 2,
+              "state": "DEFAULT",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null
+            },
+            "parentId": 379471,
+            "isDeleted": false,
+            "children": []
+          },
+          {
+            "id": 379490,
+            "type": "HEADER_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "icon": null,
+              "text": "Menu 2",
+              "order": 1,
+              "state": "DEFAULT",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null
+            },
+            "parentId": 379471,
+            "isDeleted": false,
+            "children": []
+          },
+          {
+            "id": 379492,
+            "type": "HEADER_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "icon": null,
+              "text": "Menu 1",
+              "order": 0,
+              "state": "SELECTED",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null
+            },
+            "parentId": 379471,
+            "isDeleted": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 379485,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 305,
+      "height": 242,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": -3,
+      "position": {
+        "x": 152,
+        "y": 582
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "M",
+      "backgroundColor": {
+        "type": "WHITE"
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379425,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 1,
+          "iconName": "star",
+          "position": {
+            "x": 30,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379485,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379436,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "id": 88,
+          "mode": "EDGE",
+          "type": "IMAGE",
+          "width": 305,
+          "height": 98,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 2,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "cropWidth": 10000,
+          "direction": "COLUMN",
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": -47
+          },
+          "originalWidth": 305,
+          "originalHeight": 203,
+          "originalPosition": {
+            "x": 0,
+            "y": -52
+          }
+        },
+        "parentId": 379485,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379448,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 4,
+          "iconName": "email",
+          "position": {
+            "x": 91,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379485,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379453,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 3,
+          "position": {
+            "x": 30,
+            "y": 99
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379485,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379467,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": false,
+          "size": "M",
+          "text": "Qui deserunt elit excepteur eni",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 209,
+          "height": 22,
+          "heihgt": 22,
+          "italic": false,
+          "preset": "Body Text",
+          "zIndex": 6,
+          "position": {
+            "x": 30,
+            "y": 149
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379485,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379469,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "London",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 91,
+          "height": 32,
+          "heihgt": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 5,
+          "position": {
+            "x": 101,
+            "y": 101
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379485,
+        "isDeleted": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 379486,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 136,
+      "height": 797,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": 0,
+      "position": {
+        "x": 0,
+        "y": 103
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "NONE",
+      "backgroundColor": {
+        "type": "WHITE"
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379480,
+        "type": "COLLAPSED_SIDEBAR_MENU",
+        "boardId": 1102,
+        "data": {
+          "size": "M",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "style": "INDICATOR",
+          "width": 136,
+          "height": 313,
+          "zIndex": 1,
+          "position": {
+            "x": 0,
+            "y": 3
+          },
+          "enableText": false,
+          "verticalSpacing": 0,
+          "horizontalSpacing": 0
+        },
+        "parentId": 379486,
+        "isDeleted": false,
+        "children": [
+          {
+            "id": 379491,
+            "type": "COLLAPSED_SIDEBAR_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z\"/></svg>",
+              "icon": {
+                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z\"/></svg>",
+                "iconId": "id_home",
+                "iconName": "home",
+                "alignment": "LEFT",
+                "iconStyle": "outlined",
+                "iconSetName": "Material"
+              },
+              "text": "Menu item",
+              "order": 1,
+              "state": "DEFAULT",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null
+            },
+            "parentId": 379480,
+            "isDeleted": false,
+            "children": []
+          },
+          {
+            "id": 379496,
+            "type": "COLLAPSED_SIDEBAR_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z\"/></svg>",
+              "icon": {
+                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z\"/></svg>",
+                "iconId": "id_home",
+                "iconName": "home",
+                "alignment": "LEFT",
+                "iconStyle": "outlined",
+                "iconSetName": "Material"
+              },
+              "text": "",
+              "color": {
+                "type": "PRIMARY",
+                "shade": 650
+              },
+              "order": 0,
+              "state": "SELECTED",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null
+            },
+            "parentId": 379480,
+            "isDeleted": false,
+            "children": []
+          },
+          {
+            "id": 379497,
+            "type": "COLLAPSED_SIDEBAR_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z\"/></svg>",
+              "icon": {
+                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z\"/></svg>",
+                "iconId": "id_home",
+                "iconName": "home",
+                "alignment": "LEFT",
+                "iconStyle": "outlined",
+                "iconSetName": "Material"
+              },
+              "text": "Menu item",
+              "order": 2,
+              "state": "DEFAULT",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null
+            },
+            "parentId": 379480,
+            "isDeleted": false,
+            "children": []
+          },
+          {
+            "id": 379498,
+            "type": "COLLAPSED_SIDEBAR_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z\"/></svg>",
+              "icon": {
+                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z\"/></svg>",
+                "iconId": "id_home",
+                "iconName": "home",
+                "alignment": "LEFT",
+                "iconStyle": "outlined",
+                "iconSetName": "Material"
+              },
+              "text": "Menu item",
+              "order": 0,
+              "state": "DEFAULT",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null
+            },
+            "parentId": 379480,
+            "isDeleted": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 379488,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 305,
+      "height": 242,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": -2,
+      "position": {
+        "x": 477,
+        "y": 256
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "M",
+      "backgroundColor": {
+        "type": "WHITE"
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379428,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 1,
+          "iconName": "star",
+          "position": {
+            "x": 30,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379488,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379441,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 3,
+          "position": {
+            "x": 30,
+            "y": 99
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379488,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379442,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "id": 86,
+          "mode": "EDGE",
+          "type": "IMAGE",
+          "width": 305,
+          "height": 98,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 2,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "cropWidth": 10000,
+          "direction": "COLUMN",
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": -46
+          },
+          "originalWidth": 305,
+          "originalHeight": 203,
+          "originalPosition": {
+            "x": 0,
+            "y": -52
+          }
+        },
+        "parentId": 379488,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379454,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 4,
+          "iconName": "email",
+          "position": {
+            "x": 91,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379488,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379478,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "Paris",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 60,
+          "height": 32,
+          "heihgt": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 5,
+          "position": {
+            "x": 101,
+            "y": 101
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379488,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379481,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": false,
+          "size": "M",
+          "text": "Elit proident ipsum dolore ea q",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 204,
+          "height": 22,
+          "heihgt": 22,
+          "italic": false,
+          "preset": "Body Text",
+          "zIndex": 6,
+          "position": {
+            "x": 30,
+            "y": 149
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379488,
+        "isDeleted": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 379489,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 305,
+      "height": 242,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": -5,
+      "position": {
+        "x": 802,
+        "y": 582
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "M",
+      "backgroundColor": {
+        "type": "WHITE"
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379429,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 1,
+          "iconName": "star",
+          "position": {
+            "x": 30,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379489,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379445,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "id": 95,
+          "mode": "EDGE",
+          "type": "IMAGE",
+          "width": 305,
+          "height": 98,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 2,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "cropWidth": 10000,
+          "direction": "COLUMN",
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": -46
+          },
+          "originalWidth": 305,
+          "originalHeight": 204,
+          "originalPosition": {
+            "x": 0,
+            "y": -52
+          }
+        },
+        "parentId": 379489,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379452,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 3,
+          "position": {
+            "x": 30,
+            "y": 99
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379489,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379457,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 4,
+          "iconName": "email",
+          "position": {
+            "x": 91,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379489,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379468,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "Osaka",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 75,
+          "height": 32,
+          "heihgt": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 5,
+          "position": {
+            "x": 101,
+            "y": 101
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379489,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379479,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": false,
+          "size": "M",
+          "text": "Voluptate duis consectetur non ut o",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 237,
+          "height": 22,
+          "heihgt": 22,
+          "italic": false,
+          "preset": "Body Text",
+          "zIndex": 6,
+          "position": {
+            "x": 30,
+            "y": 149
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379489,
+        "isDeleted": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 379493,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 305,
+      "height": 242,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": -6,
+      "position": {
+        "x": 152,
+        "y": 256
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "M",
+      "backgroundColor": {
+        "type": "WHITE"
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379427,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 1,
+          "iconName": "star",
+          "position": {
+            "x": 30,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379493,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379432,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "id": 85,
+          "mode": "EDGE",
+          "type": "IMAGE",
+          "width": 305,
+          "height": 98,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 2,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "cropWidth": 10000,
+          "direction": "COLUMN",
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": -50
+          },
+          "originalWidth": 305,
+          "originalHeight": 203,
+          "originalPosition": {
+            "x": 0,
+            "y": -51
+          }
+        },
+        "parentId": 379493,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379439,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 3,
+          "position": {
+            "x": 30,
+            "y": 99
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379493,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379446,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 4,
+          "iconName": "email",
+          "position": {
+            "x": 91,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379493,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379475,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "NYC",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": null,
+          "height": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 5,
+          "position": {
+            "x": 101,
+            "y": 101
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379493,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379476,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": false,
+          "size": "M",
+          "text": "Aliqua qui ea cillum mollit laboru",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 221,
+          "height": 22,
+          "italic": false,
+          "preset": "Body Text",
+          "zIndex": 6,
+          "position": {
+            "x": 30,
+            "y": 149
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379493,
+        "isDeleted": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 379494,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 305,
+      "height": 242,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": -4,
+      "position": {
+        "x": 477,
+        "y": 582
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "M",
+      "backgroundColor": {
+        "type": "WHITE"
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379426,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63L2 9.24l5.46 4.73L5.82 21L12 17.27z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 1,
+          "iconName": "star",
+          "position": {
+            "x": 30,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379494,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379438,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 3,
+          "position": {
+            "x": 30,
+            "y": 99
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379494,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379440,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "id": 92,
+          "mode": "EDGE",
+          "type": "IMAGE",
+          "width": 305,
+          "height": 98,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 2,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "cropWidth": 10000,
+          "direction": "COLUMN",
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": -42
+          },
+          "originalWidth": 305,
+          "originalHeight": 203,
+          "originalPosition": {
+            "x": 0,
+            "y": -52
+          }
+        },
+        "parentId": 379494,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379451,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5l-8-5h16zm0 12H4V8l8 5l8-5v10z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 4,
+          "iconName": "email",
+          "position": {
+            "x": 91,
+            "y": 182.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379494,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379474,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "Ha Noi",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 81,
+          "height": 32,
+          "heihgt": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 5,
+          "position": {
+            "x": 101,
+            "y": 101
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379494,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379477,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": false,
+          "size": "M",
+          "text": "Dolor proident do voluptate sit est fugi",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": 255,
+          "height": 22,
+          "heihgt": 22,
+          "italic": false,
+          "preset": "Body Text",
+          "zIndex": 6,
+          "position": {
+            "x": 30,
+            "y": 149
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379494,
+        "isDeleted": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 379495,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 319,
+      "height": 797,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": -7,
+      "position": {
+        "x": 1121,
+        "y": 103
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "NONE",
+      "backgroundColor": {
+        "type": "WHITE"
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379424,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379430,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "id": 83,
+          "mode": "CENTER",
+          "type": "IMAGE",
+          "width": 86,
+          "height": 57,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 1,
+          "position": {
+            "x": 142,
+            "y": 329
+          },
+          "cropWidth": 10000,
+          "direction": "ROW",
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "originalWidth": 86,
+          "originalHeight": 57,
+          "originalPosition": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379431,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "width": 93,
+          "height": 57,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 2,
+          "position": {
+            "x": 34,
+            "y": 329
+          },
+          "cropWidth": 10000,
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": -2
+          },
+          "originalWidth": 93,
+          "originalHeight": 62,
+          "originalPosition": {
+            "x": 0,
+            "y": -2
+          }
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379433,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 4,
+          "position": {
+            "x": 34,
+            "y": 490.5
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379434,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 3,
+          "position": {
+            "x": 178,
+            "y": 490.5
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379447,
+        "type": "DIVIDER",
+        "boardId": 1102,
+        "data": {
+          "to": {
+            "x": 319,
+            "y": 422
+          },
+          "from": {
+            "x": 0,
+            "y": 422
+          },
+          "width": 280,
+          "height": 21,
+          "zIndex": 7,
+          "lineDash": "Solid",
+          "position": {
+            "x": 0,
+            "y": 422
+          },
+          "lineColor": {
+            "type": "NEUTRAL",
+            "shade": 400
+          },
+          "lineWidth": 1
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379449,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 5,
+          "position": {
+            "x": 106,
+            "y": 490.5
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379450,
+        "type": "DIVIDER",
+        "boardId": 1102,
+        "data": {
+          "to": {
+            "x": 319,
+            "y": 266
+          },
+          "from": {
+            "x": 0,
+            "y": 266
+          },
+          "width": 291,
+          "height": 22,
+          "zIndex": 6,
+          "lineDash": "Solid",
+          "position": {
+            "x": 0,
+            "y": 266
+          },
+          "lineColor": {
+            "type": "NEUTRAL",
+            "shade": 400
+          },
+          "lineWidth": 1
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379455,
+        "type": "BUTTON",
+        "boardId": 1102,
+        "data": {
+          "size": "M",
+          "text": "Discard",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "state": "DEFAULT",
+          "style": "SOLID",
+          "width": 194,
+          "shadow": "NONE",
+          "zIndex": 11,
+          "position": {
+            "x": 34,
+            "y": 648
+          },
+          "uppercase": false,
+          "borderRadius": "M",
+          "shadowUseElementColor": false
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379460,
+        "type": "TEXTBOX",
+        "boardId": 1102,
+        "data": {
+          "size": "M",
+          "text": "Input text",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "icons": [],
+          "label": "Lcation",
+          "state": "default",
+          "style": "standard",
+          "width": 254,
+          "height": 60,
+          "zIndex": 12,
+          "position": {
+            "x": 34,
+            "y": 60
+          },
+          "enableLabel": true,
+          "borderRadius": "M",
+          "enablePlaceholder": false
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379461,
+        "type": "BUTTON",
+        "boardId": 1102,
+        "data": {
+          "size": "M",
+          "text": "Apply",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "state": "DEFAULT",
+          "style": "SOLID",
+          "width": 194,
+          "height": 36,
+          "shadow": "NONE",
+          "zIndex": 10,
+          "position": {
+            "x": 34,
+            "y": 559
+          },
+          "uppercase": false,
+          "borderRadius": "M",
+          "shadowUseElementColor": false
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379462,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "Result",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": null,
+          "height": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 14,
+          "position": {
+            "x": 34,
+            "y": 9
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379464,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.00004 19.3909L8.60913 21L17.6091 12L8.60913 3L7.00004 4.60909L14.3909 12L7.00004 19.3909Z\" fill=\"CURRENT_COLOR\"/>\n</svg>\n",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 8,
+          "iconName": "chevron_right_large",
+          "position": {
+            "x": 249,
+            "y": 345.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379466,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "Who's going",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": null,
+          "height": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 16,
+          "position": {
+            "x": 34,
+            "y": 432
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379470,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.00004 19.3909L8.60913 21L17.6091 12L8.60913 3L7.00004 4.60909L14.3909 12L7.00004 19.3909Z\" fill=\"CURRENT_COLOR\"/>\n</svg>\n",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 9,
+          "iconName": "chevron_right_large",
+          "position": {
+            "x": 256,
+            "y": 496.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379472,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "Gallery",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 900
+          },
+          "width": null,
+          "height": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 15,
+          "position": {
+            "x": 34,
+            "y": 275
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379473,
+        "type": "TEXTBOX",
+        "boardId": 1102,
+        "data": {
+          "size": "M",
+          "text": "Input text",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "icons": [],
+          "label": "Pricing",
+          "state": "default",
+          "style": "standard",
+          "width": 254,
+          "height": 91,
+          "zIndex": 13,
+          "position": {
+            "x": 34,
+            "y": 153
+          },
+          "enableLabel": true,
+          "borderRadius": "M",
+          "enablePlaceholder": false
+        },
+        "parentId": 379495,
+        "isDeleted": false,
+        "children": []
+      }
+    ]
+  }
+]

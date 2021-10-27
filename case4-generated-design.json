@@ -1,0 +1,741 @@
+[
+  {
+    "id": 379975,
+    "type": "IMAGE",
+    "boardId": 1102,
+    "data": {
+      "width": 88,
+      "height": 88,
+      "shadow": "NONE",
+      "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+      "zIndex": 1,
+      "position": {
+        "x": 338,
+        "y": 263
+      },
+      "cropWidth": 10000,
+      "cropHeight": 10000,
+      "borderColor": {
+        "type": "PRIMARY"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "ROUNDED",
+      "cropPosition": {
+        "x": -22,
+        "y": 0
+      },
+      "originalWidth": 132,
+      "originalHeight": 88,
+      "originalPosition": {
+        "x": -22,
+        "y": 0
+      }
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379978,
+    "type": "TEXTBOX",
+    "boardId": 1102,
+    "data": {
+      "size": "M",
+      "text": "Input text",
+      "color": {
+        "type": "PRIMARY"
+      },
+      "icons": [],
+      "label": "Full name",
+      "state": "default",
+      "style": "standard",
+      "width": 379,
+      "height": 98,
+      "zIndex": 6,
+      "position": {
+        "x": 338,
+        "y": 379
+      },
+      "labelShade": 550,
+      "enableLabel": true,
+      "borderRadius": "M",
+      "enablePlaceholder": false
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379980,
+    "type": "BUTTON",
+    "boardId": 1102,
+    "data": {
+      "size": "M",
+      "text": "Button",
+      "color": {
+        "type": "PRIMARY"
+      },
+      "state": "DEFAULT",
+      "style": "SOLID",
+      "width": 206,
+      "shadow": "NONE",
+      "zIndex": 5,
+      "position": {
+        "x": 573,
+        "y": 795
+      },
+      "uppercase": false,
+      "borderRadius": "M",
+      "shadowUseElementColor": false
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379981,
+    "type": "TEXTBOX",
+    "boardId": 1102,
+    "data": {
+      "size": "M",
+      "text": "Input text",
+      "color": {
+        "type": "PRIMARY"
+      },
+      "icons": [],
+      "label": "Email",
+      "state": "default",
+      "style": "standard",
+      "width": 783,
+      "height": 95,
+      "zIndex": 8,
+      "position": {
+        "x": 338,
+        "y": 489
+      },
+      "labelShade": 550,
+      "enableLabel": true,
+      "borderRadius": "M",
+      "enablePlaceholder": false
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379983,
+    "type": "TEXTBOX",
+    "boardId": 1102,
+    "data": {
+      "size": "M",
+      "text": "Input text",
+      "color": {
+        "type": "PRIMARY"
+      },
+      "icons": [],
+      "label": "Username",
+      "state": "default",
+      "style": "standard",
+      "width": 352,
+      "height": 100,
+      "zIndex": 7,
+      "position": {
+        "x": 796,
+        "y": 379
+      },
+      "labelShade": 550,
+      "enableLabel": true,
+      "borderRadius": "M",
+      "enablePlaceholder": false
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379984,
+    "type": "TEXT",
+    "boardId": 1102,
+    "data": {
+      "bold": true,
+      "size": "S",
+      "text": "Settings",
+      "color": {
+        "type": "NEUTRAL",
+        "shade": 900
+      },
+      "width": null,
+      "height": 32,
+      "italic": false,
+      "preset": "Heading",
+      "zIndex": 13,
+      "position": {
+        "x": 338,
+        "y": 128
+      },
+      "underline": false,
+      "lineStyles": null
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379985,
+    "type": "TEXTAREA",
+    "boardId": 1102,
+    "data": {
+      "icon": null,
+      "size": "M",
+      "text": "Input text",
+      "color": {
+        "type": "PRIMARY"
+      },
+      "label": "Bio",
+      "state": "default",
+      "style": "standard",
+      "width": 783,
+      "height": 138,
+      "zIndex": 9,
+      "position": {
+        "x": 338,
+        "y": 589
+      },
+      "labelShade": 550,
+      "enableLabel": true,
+      "borderRadius": "M",
+      "enablePlaceholder": false
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379986,
+    "type": "TEXT",
+    "boardId": 1102,
+    "data": {
+      "bold": false,
+      "size": "M",
+      "text": "Profile image",
+      "color": {
+        "type": "NEUTRAL",
+        "shade": 900
+      },
+      "width": null,
+      "height": 22,
+      "italic": false,
+      "preset": "Body Text",
+      "zIndex": 14,
+      "position": {
+        "x": 338,
+        "y": 209
+      },
+      "underline": false,
+      "lineStyles": null
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379989,
+    "type": "BUTTON",
+    "boardId": 1102,
+    "data": {
+      "size": "M",
+      "text": "Button",
+      "color": {
+        "type": "PRIMARY"
+      },
+      "state": "DEFAULT",
+      "style": "SOLID",
+      "width": 201,
+      "shadow": "NONE",
+      "zIndex": 11,
+      "position": {
+        "x": 338,
+        "y": 795
+      },
+      "uppercase": false,
+      "borderRadius": "M",
+      "shadowUseElementColor": false
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": []
+  },
+  {
+    "id": 379993,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 309,
+      "height": 900,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": 0,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "NONE",
+      "backgroundColor": {
+        "type": "NEUTRAL",
+        "shade": 800
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379976,
+        "type": "IMAGE",
+        "boardId": 1102,
+        "data": {
+          "width": 205,
+          "height": 75,
+          "shadow": "NONE",
+          "source": "https://uisprint-assets.s3.us-west-1.amazonaws.com/default-images/sketch-photo.png",
+          "zIndex": 1,
+          "position": {
+            "x": 52,
+            "y": 27
+          },
+          "cropWidth": 10000,
+          "cropHeight": 10000,
+          "borderColor": {
+            "type": "PRIMARY"
+          },
+          "borderWidth": "NONE",
+          "borderRadius": "M",
+          "cropPosition": {
+            "x": 0,
+            "y": -31
+          },
+          "originalWidth": 205,
+          "originalHeight": 137,
+          "originalPosition": {
+            "x": 0,
+            "y": -31
+          }
+        },
+        "parentId": 379993,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379977,
+        "type": "AVATAR",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/></svg>",
+          "size": "M",
+          "text": "A",
+          "badge": "NONE",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "image": "A",
+          "sharp": "OVAL",
+          "style": "IMAGE",
+          "zIndex": 2,
+          "position": {
+            "x": 24.5,
+            "y": 799.5
+          },
+          "borderWidth": "NONE"
+        },
+        "parentId": 379993,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379988,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": true,
+          "size": "S",
+          "text": "Annie",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 550
+          },
+          "width": null,
+          "height": 32,
+          "italic": false,
+          "preset": "Heading",
+          "zIndex": 3,
+          "position": {
+            "x": 92.5,
+            "y": 786
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379993,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379990,
+        "type": "TEXT",
+        "boardId": 1102,
+        "data": {
+          "bold": false,
+          "size": "M",
+          "text": "View",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 550
+          },
+          "width": null,
+          "height": 22,
+          "italic": false,
+          "preset": "Body Text",
+          "zIndex": 6,
+          "position": {
+            "x": 92.5,
+            "y": 827
+          },
+          "underline": false,
+          "lineStyles": null
+        },
+        "parentId": 379993,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379991,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M4.60909 7.00004L3 8.60913L12 17.6091L21 8.60913L19.3909 7.00004L12 14.3909L4.60909 7.00004Z\" fill=\"CURRENT_COLOR\"/>\n</svg>\n",
+          "size": "M",
+          "color": {
+            "type": "NEUTRAL",
+            "shade": 550
+          },
+          "zIndex": 5,
+          "iconName": "chevron_down_large",
+          "position": {
+            "x": 260.5,
+            "y": 805.5
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379993,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379992,
+        "type": "SIDEBAR_MENU",
+        "boardId": 1102,
+        "data": {
+          "size": "M",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "style": "INDICATOR",
+          "width": 309,
+          "height": 235,
+          "zIndex": 4,
+          "position": {
+            "x": 0,
+            "y": 145
+          },
+          "verticalSpacing": 0,
+          "horizontalSpacing": 0
+        },
+        "parentId": 379993,
+        "isDeleted": false,
+        "children": [
+          {
+            "id": 379996,
+            "type": "SIDEBAR_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "icon": {
+                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z\"/></svg>",
+                "iconName": "dashboard",
+                "alignment": "LEFT",
+                "iconStyle": "outlined",
+                "iconSetName": "Material"
+              },
+              "text": "Projects",
+              "order": 1,
+              "state": "DEFAULT",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null,
+              "indentLevel": 0
+            },
+            "parentId": 379992,
+            "isDeleted": false,
+            "children": []
+          },
+          {
+            "id": 379998,
+            "type": "SIDEBAR_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "icon": {
+                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z\"/></svg>",
+                "iconName": "dashboard",
+                "alignment": "LEFT",
+                "iconStyle": "outlined",
+                "iconSetName": "Material"
+              },
+              "text": "Team",
+              "order": 3,
+              "state": "DEFAULT",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null,
+              "indentLevel": 0
+            },
+            "parentId": 379992,
+            "isDeleted": false,
+            "children": []
+          },
+          {
+            "id": 379999,
+            "type": "SIDEBAR_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "icon": {
+                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z\"/></svg>",
+                "iconName": "dashboard",
+                "alignment": "LEFT",
+                "iconStyle": "outlined",
+                "iconSetName": "Material"
+              },
+              "text": "Dashboard",
+              "order": 0,
+              "state": "SELECTED",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null,
+              "indentLevel": 0
+            },
+            "parentId": 379992,
+            "isDeleted": false,
+            "children": []
+          },
+          {
+            "id": 380000,
+            "type": "SIDEBAR_MENU_ITEM",
+            "boardId": 1102,
+            "data": {
+              "icon": {
+                "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z\"/></svg>",
+                "iconName": "dashboard",
+                "alignment": "LEFT",
+                "iconStyle": "outlined",
+                "iconSetName": "Material"
+              },
+              "text": "Analytics",
+              "order": 2,
+              "state": "DEFAULT",
+              "zIndex": 0,
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "arrowIcon": null,
+              "indentLevel": 0
+            },
+            "parentId": 379992,
+            "isDeleted": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 379994,
+    "type": "CHECKBOX",
+    "boardId": 1102,
+    "data": {
+      "size": "M",
+      "color": {
+        "type": "PRIMARY"
+      },
+      "label": "Label",
+      "style": "SOLID",
+      "width": 532,
+      "height": 50,
+      "zIndex": 19,
+      "spacing": 8,
+      "position": {
+        "x": 338,
+        "y": 752
+      },
+      "direction": "VERTICAL_RIGHT",
+      "enableLabel": false
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379997,
+        "type": "CHECKBOX_ITEM",
+        "boardId": 1102,
+        "data": {
+          "text": "Receive monthly updates",
+          "order": 0,
+          "state": "DEFAULT",
+          "zIndex": 0,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "borderShade": 550,
+          "selectionStatus": "UNSELECTED"
+        },
+        "parentId": 379994,
+        "isDeleted": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 379995,
+    "type": "CONTAINER",
+    "boardId": 1102,
+    "data": {
+      "width": 1131,
+      "height": 120,
+      "layout": null,
+      "shadow": "XS",
+      "zIndex": -1,
+      "position": {
+        "x": 309,
+        "y": 0
+      },
+      "borderDash": "Solid",
+      "borderColor": {
+        "type": "WHITE"
+      },
+      "borderWidth": "NONE",
+      "borderRadius": "NONE",
+      "backgroundColor": {
+        "type": "WHITE"
+      },
+      "shadowUseElementColor": false
+    },
+    "parentId": 379974,
+    "isDeleted": false,
+    "children": [
+      {
+        "id": 379979,
+        "type": "ICON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z\"/></svg>",
+          "size": "M",
+          "color": {
+            "type": "BLACK"
+          },
+          "zIndex": 1,
+          "iconName": "dashboard",
+          "position": {
+            "x": 1020,
+            "y": 48
+          },
+          "rotation": 0,
+          "iconStyle": "outlined",
+          "iconSetName": "Material"
+        },
+        "parentId": 379995,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379982,
+        "type": "BUTTON",
+        "boardId": 1102,
+        "data": {
+          "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z\"/></svg>",
+          "size": "M",
+          "text": "",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "state": "DEFAULT",
+          "style": "SOLID",
+          "width": 36,
+          "shadow": "NONE",
+          "zIndex": 2,
+          "position": {
+            "x": 923,
+            "y": 42
+          },
+          "uppercase": false,
+          "borderRadius": "M",
+          "shadowUseElementColor": false
+        },
+        "parentId": 379995,
+        "isDeleted": false,
+        "children": []
+      },
+      {
+        "id": 379987,
+        "type": "TEXTBOX",
+        "boardId": 1102,
+        "data": {
+          "size": "M",
+          "text": "Input text",
+          "color": {
+            "type": "PRIMARY"
+          },
+          "icons": [
+            {
+              "svg": "<svg fill=\"CURRENT_COLOR\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z\"/></svg>",
+              "iconName": "search",
+              "alignment": "LEFT",
+              "iconStyle": "outlined",
+              "iconSetName": "Material"
+            }
+          ],
+          "label": "Label",
+          "state": "default",
+          "style": "standard",
+          "width": 234,
+          "height": 64,
+          "zIndex": 3,
+          "position": {
+            "x": 653,
+            "y": 42
+          },
+          "enableLabel": false,
+          "borderRadius": "M",
+          "enablePlaceholder": false
+        },
+        "parentId": 379995,
+        "isDeleted": false,
+        "children": []
+      }
+    ]
+  }
+]
