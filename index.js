@@ -6,10 +6,13 @@ const initCanvas = (id) => {
 }
 
 const setBackground = (url, canvas) => {
-    fabric.Image.fromURL(url, (img) => {
-        canvas.backgroundImage = img;
-        canvas.renderAll();
-    })
+    // fabric.Image.fromURL(url, (img) => {
+    //     canvas.backgroundImage = img;
+    //     canvas.renderAll();
+    // })
+
+    canvas.setBackgroundColor('rgba(240,240,240,0.6)')
+    canvas.renderAll();
 }
 
 const toggleMode = (mode) => {
@@ -48,14 +51,37 @@ const setPanEvents = (canvas) => {
     
     canvas.on('mouse:down', (event) => {
         mousePressed = true;
-        // if (currentMode === modes.pan) {
-        //     canvas.setCursor('crosshair');
-        // }
     })
     
-    canvas.on('mouse:up', (event) => {
+    canvas.on('mouse:up', (e) => {
         mousePressed = false;
+        let lst_obj = objectExtractions(canvas, canvas.getObjects())
+        console.log(stringtifyObjectList(lst_obj))
     })
+}
+
+
+var lst_obj = []
+const objectExtractions = (canvas, lstObjectsFromCanvas) => {
+    const canvCenter = canvas.getCenter();
+
+    lst_obj = []
+    lstObjectsFromCanvas.forEach((object) => {
+        lst_obj.push({
+            width: object.width,
+            height: object.height,
+            posX: canvCenter.left - object.left,
+            posY: canvCenter.top - object.top,
+        })
+    })
+
+    console.log(lst_obj)
+
+    return lst_obj
+}
+
+const stringtifyObjectList = (lstObjects) => {
+    document.querySelector("#json-textarea").value = "[" + lstObjects.map((obj) => JSON.stringify(obj)).join(',') + "]"
 }
 
 const canvas = initCanvas('canvas');
@@ -84,8 +110,9 @@ const canvasParse = (json_text) => {
 const rectangleRenderer = (canvas, width, height, posX, posY) => {
     const canvCenter = canvas.getCenter();
 
-    leftPosition = (posX === "undefined") ? canvCenter.left - width / 2 : canvCenter.left - posX/2
-    topPosition = (posY === "undefined") ? canvCenter.top - height / 2 : canvCenter.top - posY/2
+    leftPosition = (posX === undefined) ? canvCenter.left - width / 2 : canvCenter.left - posX
+    topPosition = (posY === undefined) ? canvCenter.top - height / 2 : canvCenter.top - posY
+    console.log(leftPosition, topPosition)
     const rect = new fabric.Rect({
         width: width,
         height: height,
@@ -95,9 +122,30 @@ const rectangleRenderer = (canvas, width, height, posX, posY) => {
     })
     canvas.add(rect)
     canvas.renderAll()
+    // console.log(rect.toJSON())
+    // rect.on('mouse:down', (event) => {
+    //     console.log('clicked on rect')
+    // })
 }
 
 const parseObj = () => {
     canvasParse(document.querySelector("#json-textarea").value)
 }
 
+const addRect = (canvas) => {
+    const canvCenter = canvas.getCenter();
+
+    defaultWidth = 200;
+    defaultHeight = 100;
+
+    const rect = new fabric.Rect({
+        width: defaultWidth,
+        height: defaultHeight,
+        fill: "gray",
+        left: canvCenter.left - defaultWidth / 2,
+        top: canvCenter.top - defaultHeight / 2,
+    })
+
+    canvas.add(rect)
+    canvas.renderAll()
+}
