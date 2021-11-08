@@ -1,0 +1,46 @@
+[
+    {
+        "id": 427130,
+        "type": "RADIO",
+        "boardId": 1928,
+        "data": {
+            "size": "M",
+            "color": {
+                "type": "PRIMARY"
+            },
+            "label": "Label",
+            "style": "OUTLINED",
+            "zIndex": 1,
+            "spacing": 0,
+            "position": {
+                "x": 480,
+                "y": 198
+            },
+            "direction": "VERTICAL_RIGHT",
+            "enableLabel": false
+        },
+        "parentId": 427089,
+        "isDeleted": false,
+        "children": [
+            {
+                "id": 427131,
+                "type": "RADIO_ITEM",
+                "boardId": 1928,
+                "data": {
+                    "text": "Radio",
+                    "order": 0,
+                    "state": "DEFAULT",
+                    "zIndex": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "selectionStatus": "SELECTED"
+                },
+                "parentId": 427130,
+                "isDeleted": false,
+                "children": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "id": 427138,
+        "type": "COLUMN_BAR_CHART",
+        "boardId": 1928,
+        "data": {
+            "style": "CLUSTERED_COLUMN",
+            "width": 212,
+            "height": 192,
+            "zIndex": 1,
+            "position": {
+                "x": 150,
+                "y": 120
+            },
+            "enableGrid": false,
+            "groupsData": [
+                {
+                    "firstVolumn": 0.5,
+                    "secondVolumn": 0.75
+                },
+                {
+                    "firstVolumn": 1,
+                    "secondVolumn": 0.6
+                },
+                {
+                    "firstVolumn": 0.67,
+                    "secondVolumn": 0.94
+                }
+            ],
+            "firstSeriesColor": {
+                "type": "PRIMARY",
+                "shade": 500
+            },
+            "secondSeriesColor": {
+                "type": "PRIMARY",
+                "shade": 200
+            }
+        },
+        "parentId": 427089,
+        "isDeleted": false,
+        "children": []
+    }
+]

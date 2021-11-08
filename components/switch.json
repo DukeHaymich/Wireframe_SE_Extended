@@ -1,0 +1,24 @@
+[
+    {
+        "id": 427133,
+        "type": "SWITCH",
+        "boardId": 1928,
+        "data": {
+            "size": "M",
+            "color": {
+                "type": "PRIMARY"
+            },
+            "state": "DEFAULT",
+            "style": "BASIC",
+            "status": "ON",
+            "zIndex": 1,
+            "position": {
+                "x": 267,
+                "y": 162
+            }
+        },
+        "parentId": 427089,
+        "isDeleted": false,
+        "children": []
+    }
+]

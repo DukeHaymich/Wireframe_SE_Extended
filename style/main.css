@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+:root {
+  --canvas-background: #DDDDDD;
+  --pane-background: #62ff5d;
+  --button-background: #a8ff9d;
+  --button-hover-background: #00cc22;
+  --button-down-background: #00aa00;
+}
+
+body {
+  background: white;
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.leftpane {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: var(--pane-background);
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-right: medium solid darkgreen;
+}
+
+.leftpane button {
+  width: 100%;
+  height: 2em;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.1em;
+  border: none;
+  background: var(--button-background);
+}
+
+.leftpane button:hover {
+  font-weight: bold;
+  background-color: var(--button-hover-background);
+}
+
+.leftpane button:active {
+  background-color: var(--button-down-background);
+}
+
+.leftpane .file-cta-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.leftpane .json-container {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.leftpane .json-container #json {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  border: none;
+  resize: none;
+}
+
+.leftpane .json-container #json:focus {
+  outline: none;
+}
+
+.leftpane .library {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  background: green;
+  border-top: medium solid darkgreen;
+}
+
+.canvas-container {
+  -webkit-box-flex: 3.75;
+      -ms-flex: 3.75;
+          flex: 3.75;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+}
+
+.canvas-container .notification {
+  display: none;
+  padding: 0;
+  background: yellow;
+}
+
+.canvas-container #canvas {
+  background: var(--canvas-background);
+}
+
+.rightpane {
+  background-color: var(--pane-background);
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-left: medium solid darkgreen;
+}
+/*# sourceMappingURL=main.css.map */

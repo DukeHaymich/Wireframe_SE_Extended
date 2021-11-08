@@ -1,151 +1,70 @@
-const initCanvas = (id) => {
-    return new fabric.Canvas(id, {
-        width: window.innerWidth * 0.6,
-        height: window.innerHeight,
-    });
-}
+import * as UTIL from './lib/utility.js';
 
-const setBackground = (url, canvas) => {
-    // fabric.Image.fromURL(url, (img) => {
-    //     canvas.backgroundImage = img;
-    //     canvas.renderAll();
-    // })
-
-    canvas.setBackgroundColor('rgba(240,240,240,0.6)')
-    canvas.renderAll();
-}
-
-const toggleMode = (mode) => {
-    if (mode === modes.pan) {
-        if (currentMode === modes.pan) {
-            currentMode = ""
-        } else {
-            currentMode = modes.pan
-            canvas.isDrawingMode = false
-        }
-    } else if (mode === modes.drawing) {
-        if (currentMode === modes.drawing) {
-            currentMode = ""
-            canvas.isDrawingMode = false
-        } else {
-            currentMode = modes.drawing
-            canvas.isDrawingMode = true
-        }
-    }
-}
-
-const setPanEvents = (canvas) => {
-    canvas.on('mouse:move', (e) => {
-        // console.log(e.layerX);
-        if (mousePressed && currentMode === modes.pan) {
-            const mEvent = e.e;
-            // canvas.setCursor('crosshair');
-            // canvas.renderAll();
-            const delta = new fabric.Point(mEvent.movementX, mEvent.movementY);
-            canvas.relativePan(delta);
-        } else if (mousePressed && currentMode === modes.drawing) {
-            canvas.isDrawingMode = true
-        }
-    })
-    
-    
-    canvas.on('mouse:down', (event) => {
-        mousePressed = true;
-    })
-    
-    canvas.on('mouse:up', (e) => {
-        mousePressed = false;
-        let lst_obj = objectExtractions(canvas, canvas.getObjects())
-        console.log(stringtifyObjectList(lst_obj))
-    })
-}
+/*** Initiate canvas and drawing area ***/
+const canvasPad = document.querySelector(".canvas-container");
+const canvas = new fabric.Canvas("canvas", {
+    width: canvasPad.clientWidth,
+    height: canvasPad.clientHeight,
+    fireRightClick: true,
+    fireMiddleClick: true,
+    stopContextMenu: true
+});
+var page = new fabric.Rect({
+    width: canvas.width * 0.9,
+    height: canvas.height * 0.8,
+    fill: "white",
+    shadow: new fabric.Shadow({
+        color: "rgb(100, 100, 100)",
+        blur: 5
+    }),
+});
+canvas.add(page);
+canvas.centerObject(page);
 
 
-var lst_obj = []
-const objectExtractions = (canvas, lstObjectsFromCanvas) => {
-    const canvCenter = canvas.getCenter();
-
-    lst_obj = []
-    lstObjectsFromCanvas.forEach((object) => {
-        lst_obj.push({
-            width: object.width,
-            height: object.height,
-            posX: canvCenter.left - object.left,
-            posY: canvCenter.top - object.top,
-        })
-    })
-
-    console.log(lst_obj)
-
-    return lst_obj
-}
-
-const stringtifyObjectList = (lstObjects) => {
-    document.querySelector("#json-textarea").value = "[" + lstObjects.map((obj) => JSON.stringify(obj)).join(',') + "]"
-}
-
-const canvas = initCanvas('canvas');
-// const canvas = document.getElementById('canvas');
+/*** Handle canvas events ***/
+/* Zooming at cursor */
+canvas.on("mouse:wheel", (event) => {
+    var delta = event.e.deltaY;
+    var zoom = canvas.getZoom();
+    zoom *= 0.999 ** delta;
+    if (zoom > 20) zoom = 20;
+    if (zoom < 0.1) zoom = 0.1;
+    canvas.zoomToPoint({ x: event.e.offsetX, y: event.e.offsetY }, zoom);
+    event.e.preventDefault();
+    event.e.stopPropagation();
+});
+/* Panning with middle click */
 let mousePressed = false;
+canvas.on('mouse:move', (event) => {
+    if (mousePressed) {
+        const mEvent = event.e;
+        canvas.relativePan(new fabric.Point(mEvent.movementX, mEvent.movementY));
+        mEvent.preventDefault();
+        mEvent.stopPropagation();
+    }
+});
+canvas.on('mouse:down', (event) => {
+    if (event.button === 2) {
+        mousePressed = true;
+    }
+});
+canvas.on('mouse:up', (event) => {
+    if (event.button === 2) {
+        mousePressed = false;
+    }
+});
 
-let currentMode;
+/*** Work with JSON ***/
+const JSONtextarea = document.getElementById("json");
+const importButton = document.getElementById("importBtn");
+importButton.addEventListener("click", () => {
+    var objectList = UTIL.JSONParser(JSONtextarea.value);
+    if (objectList === null) {
+        console.log("yeah");
+    } else {
+        console.log("no");
+    }
+});
 
-const modes = {
-    pan: 'pan',
-    drawing: 'drawing',
-}
-
-setBackground('https://i.picsum.photos/id/88/200/300.jpg?hmac=JmiMN7iyW4Saka82S4HzDvbOjMSB2k9NwTN29MHWqa4', canvas);
-
-setPanEvents(canvas);
-
-const canvasParse = (json_text) => {
-    list_canvas_obj = JSON.parse(json_text);
-    list_canvas_obj.forEach((canvasJsonObj) => {
-        console.log(canvasJsonObj.width, canvasJsonObj.height, canvasJsonObj.posX, canvasJsonObj.posY)
-        rectangleRenderer(canvas, canvasJsonObj.width, canvasJsonObj.height, canvasJsonObj.posX, canvasJsonObj.posY)
-    })
-}
-
-const rectangleRenderer = (canvas, width, height, posX, posY) => {
-    const canvCenter = canvas.getCenter();
-
-    leftPosition = (posX === undefined) ? canvCenter.left - width / 2 : canvCenter.left - posX
-    topPosition = (posY === undefined) ? canvCenter.top - height / 2 : canvCenter.top - posY
-    console.log(leftPosition, topPosition)
-    const rect = new fabric.Rect({
-        width: width,
-        height: height,
-        fill: "gray",
-        left: leftPosition,
-        top: topPosition,
-    })
-    canvas.add(rect)
-    canvas.renderAll()
-    // console.log(rect.toJSON())
-    // rect.on('mouse:down', (event) => {
-    //     console.log('clicked on rect')
-    // })
-}
-
-const parseObj = () => {
-    canvasParse(document.querySelector("#json-textarea").value)
-}
-
-const addRect = (canvas) => {
-    const canvCenter = canvas.getCenter();
-
-    defaultWidth = 200;
-    defaultHeight = 100;
-
-    const rect = new fabric.Rect({
-        width: defaultWidth,
-        height: defaultHeight,
-        fill: "gray",
-        left: canvCenter.left - defaultWidth / 2,
-        top: canvCenter.top - defaultHeight / 2,
-    })
-
-    canvas.add(rect)
-    canvas.renderAll()
-}
+/*** Generating components ***/

@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wireframe Mode</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
-    <script src="./lib/fabric.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans">
-    <link rel="stylesheet" href="./lib/style.css">
-</head>
-<body>
-    <div id="component-drawer">
-        <button id="import" onclick="parseObj(canvas)">Import</button>
-        <button id="export" onclick="parseObj(canvas)">Export</button>
-        <button id="panning" onclick="toggleMode(modes.pan)">Pan</button>
-        <button id="drawing" onclick="toggleMode(modes.drawing)">Draw</button>
-        <textarea name="json-detail" id="json" placeholder="Json here!"></textarea>
-        <div id="library">
-            <button onclick="addRect(canvas)">Add Rectangle</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wireframe Mode</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+        <!-- <script src="./lib/utility.js"></script> -->
+        <script src="./lib/fabric.min.js"></script>
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body>
+        <div class="leftpane">
+            <div class="file-cta-container">
+                <button id="importBtn">Import</button>
+                <button id="exportBtn">Export</button>
+            </div>
+            <div class="json-container">
+                <textarea name="json-detail" id="json" placeholder="Paste json here!"></textarea>
+                <button id="copyBtn">Copy to clipboard!</button>
+            </div>
+            <div class="library">
+
+            </div>
         </div>
-    </div>
+        <div class="canvas-container">
+            <div class="notification">
+                <p><span>Warning:</span> The text you entered is not in JSON format!</p>
+            </div>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="rightpane">
+            <p>Properties</p>
+        </div>
         
-    <canvas id="canvas"></canvas>
-
-    <div id='property-drawer'>
-
-    </div>
-
-    <script src="./index.js"></script>
-</body>
+        <script type="module" src="./index.js"></script>
+    </body>
 </html>

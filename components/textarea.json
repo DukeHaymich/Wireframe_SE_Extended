@@ -1,0 +1,31 @@
+[
+    {
+        "id": 427120,
+        "type": "TEXTAREA",
+        "boardId": 1928,
+        "data": {
+            "icon": null,
+            "size": "M",
+            "text": "Input text",
+            "color": {
+                "type": "PRIMARY"
+            },
+            "label": "Label",
+            "state": "default",
+            "style": "standard",
+            "width": 256,
+            "height": 94,
+            "zIndex": 1,
+            "position": {
+                "x": 111,
+                "y": 137
+            },
+            "enableLabel": false,
+            "borderRadius": "M",
+            "enablePlaceholder": false
+        },
+        "parentId": 427089,
+        "isDeleted": false,
+        "children": []
+    }
+]

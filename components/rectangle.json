@@ -1,0 +1,33 @@
+[
+    {
+        "id": 427106,
+        "type": "CONTAINER",
+        "boardId": 1928,
+        "data": {
+            "width": 200,
+            "height": 200,
+            "layout": null,
+            "shadow": "NONE",
+            "zIndex": 1,
+            "position": {
+                "x": 191,
+                "y": 122
+            },
+            "borderDash": "Solid",
+            "borderColor": {
+                "type": "NEUTRAL",
+                "shade": 300
+            },
+            "borderWidth": "NONE",
+            "borderRadius": "NONE",
+            "backgroundColor": {
+                "type": "NEUTRAL",
+                "shade": 150
+            },
+            "shadowUseElementColor": false
+        },
+        "parentId": 427089,
+        "isDeleted": false,
+        "children": []
+    }
+]

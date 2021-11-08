@@ -1,0 +1,29 @@
+[
+    {
+        "id": 427115,
+        "type": "BUTTON",
+        "boardId": 1928,
+        "data": {
+            "size": "M",
+            "text": "Button",
+            "color": {
+                "type": "PRIMARY"
+            },
+            "state": "DEFAULT",
+            "style": "SOLID",
+            "width": 0,
+            "shadow": "NONE",
+            "zIndex": 1,
+            "position": {
+                "x": 180,
+                "y": 153
+            },
+            "uppercase": false,
+            "borderRadius": "M",
+            "shadowUseElementColor": false
+        },
+        "parentId": 427089,
+        "isDeleted": false,
+        "children": []
+    }
+]
