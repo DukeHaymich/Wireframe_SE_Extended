@@ -13,21 +13,33 @@
     <body>
         <div class="leftpane">
             <div class="file-cta-container">
-                <button id="importBtn">Import</button>
-                <button id="exportBtn">Export</button>
+                <button class="button" id="importBtn">Import</button>
+                <button class="button" id="exportBtn">Export</button>
             </div>
             <div class="json-container">
                 <textarea name="json-detail" id="json" placeholder="Paste json here!"></textarea>
                 <button id="copyBtn">Copy to clipboard!</button>
             </div>
             <div class="library">
-
+                <button class="button">avatar</button>
+                <button class="button">bodytext</button>
+                <button class="button">button</button>
+                <button class="button">chart</button>
+                <button class="button">checkbox</button>
+                <button class="button">divider</button>
+                <button class="button">heading</button>
+                <button class="button">image</button>
+                <button class="button">link</button>
+                <button class="button">radio</button>
+                <button class="button">rating</button>
+                <button class="button">rectangle</button>
+                <button class="button">switch</button>
+                <button class="button">textarea</button>
+                <button class="button">textbox</button>
             </div>
         </div>
         <div class="canvas-container">
-            <div class="notification">
-                <p><span>Warning:</span> The text you entered is not in JSON format!</p>
-            </div>
+            <div class="notification"></div>
             <canvas id="canvas"></canvas>
         </div>
         <div class="rightpane">
