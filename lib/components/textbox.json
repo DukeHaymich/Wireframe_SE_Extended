@@ -1,0 +1,10 @@
+{
+    "type": "TEXTBOX",
+    "data": {
+        "size": "M",
+        "text": "Input text",
+        "label": "Label",
+        "enableLabel": true,
+        "enablePlaceholder": true
+    }
+}

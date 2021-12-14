@@ -1,0 +1,22 @@
+{
+    "type": "COLUMN_BAR_CHART",
+    "data": {
+        "style": "CLUSTERED_COLUMN",
+        "width": 212,
+        "height": 192,
+        "groupsData": [
+            {
+                "firstVolumn": 0.5,
+                "secondVolumn": 0.75
+            },
+            {
+                "firstVolumn": 1,
+                "secondVolumn": 0.6
+            },
+            {
+                "firstVolumn": 0.67,
+                "secondVolumn": 0.94
+            }
+        ]
+    }
+}

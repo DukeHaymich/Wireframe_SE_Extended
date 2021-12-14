@@ -1,0 +1,8 @@
+{
+    "type": "CONTAINER",
+    "data": {
+        "width": 200,
+        "height": 200,
+        "borderWidth": "NONE"
+    }
+}

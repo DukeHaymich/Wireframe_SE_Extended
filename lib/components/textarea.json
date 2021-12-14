@@ -1,0 +1,12 @@
+{
+    "type": "TEXTAREA",
+    "data": {
+        "size": "M",
+        "text": "Input text",
+        "label": "Label",
+        "width": 256,
+        "height": 94,
+        "enableLabel": true,
+        "enablePlaceholder": true
+    }
+}

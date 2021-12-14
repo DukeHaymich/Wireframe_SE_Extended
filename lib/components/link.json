@@ -1,0 +1,11 @@
+{
+    "type": "TEXT",
+    "data": {
+        "size": "M",
+        "text": "Link",
+        "width": null,
+        "height": null,
+        "preset": "Link",
+        "textAlign": "LEFT"
+    }
+}

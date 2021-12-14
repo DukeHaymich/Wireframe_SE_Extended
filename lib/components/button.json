@@ -1,0 +1,9 @@
+{
+    "type": "BUTTON",
+    "data": {
+        "size": "M",
+        "text": "Button",
+        "width": 0,
+        "borderRadius": "M"
+    }
+}

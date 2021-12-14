@@ -1,0 +1,23 @@
+{
+    "type": "RADIO",
+    "data": {
+        "size": "M",
+        "label": "Label",
+        "direction": "VERTICAL_RIGHT",
+        "enableLabel": true
+    },
+    "children": [
+        {
+            "type": "RADIO_ITEM",
+            "data": {
+                "text": "Radio",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "selectionStatus": "SELECTED"
+            },
+            "children": []
+        }
+    ]
+}

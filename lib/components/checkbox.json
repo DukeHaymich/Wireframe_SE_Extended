@@ -1,0 +1,44 @@
+{
+    "type": "CHECKBOX",
+    "data": {
+        "size": "M",
+        "label": "Label",
+        "direction": "VERTICAL_RIGHT",
+        "enableLabel": true
+    },
+    "children": [
+        {
+            "type": "CHECKBOX_ITEM",
+            "data": {
+                "text": "Checkbox unselected",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "selectionStatus": "UNSELECTED"
+            }
+        },
+        {
+            "type": "CHECKBOX_ITEM",
+            "data": {
+                "text": "Checkbox indeterminate",
+                "position": {
+                    "x": 0,
+                    "y": 30
+                },
+                "selectionStatus": "INDETERMINATE"
+            }
+        },
+        {
+            "type": "CHECKBOX_ITEM",
+            "data": {
+                "text": "Checkbox selected",
+                "position": {
+                    "x": 0,
+                    "y": 60
+                },
+                "selectionStatus": "SELECTED"
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "type": "TEXT",
+    "data": {
+        "size": "M",
+        "text": "Body text",
+        "preset": "Body Text",
+        "textAlign": "LEFT"
+    }
+}

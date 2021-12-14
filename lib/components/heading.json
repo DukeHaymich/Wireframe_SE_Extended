@@ -1,0 +1,11 @@
+{
+    "type": "HEADING",
+    "data": {
+        "size": "M",
+        "text": "Heading",
+        "width": null,
+        "height": null,
+        "preset": "Heading",
+        "textAlign": "LEFT"
+    }
+}

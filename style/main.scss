@@ -6,6 +6,9 @@
     --button-background: #a8ff9d;
     --button-hover-background: #00cc22;
     --button-down-background: #00aa00;
+    --z-index-canvas: 1;
+    --z-index-notification: 2;
+    --z-index-sidebar: 3;
 }
 
 body {
@@ -17,12 +20,12 @@ body {
     font-family: "Fira Sans", sans-serif;
     display: flex;
     align-items: stretch;
-    max-height: 100vh;
-    max-width: 100vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 .leftpane {
-    z-index: 1000001;
+    z-index: var(--z-index-sidebar);
     flex: 1;
     background: var(--pane-background);
     padding: 0;
@@ -77,10 +80,6 @@ body {
         flex-wrap: wrap;
         border-top: medium solid darkgreen;
         overflow: auto;
-
-        // .button {
-        //     // display: none;
-        // }
     }
 }
 
@@ -88,6 +87,8 @@ body {
     flex: 3.75;
     display: flex;
     width: 100%;
+    height: 100vh;
+    z-index: var(--z-index-canvas);
     flex-direction: column;
     flex-wrap: wrap;
     background: black;
@@ -100,7 +101,7 @@ body {
         display: table-cell;
         vertical-align: middle;
         text-align: center;
-        z-index: 1000000;
+        z-index: var(--z-index-notification);
         height: 3em;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         transition: clip-path 0.25s linear;
@@ -132,7 +133,7 @@ body {
     background-color: var(--pane-background);
     flex: 1;
     border-left: medium solid darkgreen;
-    z-index: 1000001;
+    z-index: var(--z-index-sidebar);
 
     h3 {
         margin: 0;
@@ -141,4 +142,5 @@ body {
         background-color: #00DD00;
         border-bottom: medium solid darkgreen;
     }
+    
 }

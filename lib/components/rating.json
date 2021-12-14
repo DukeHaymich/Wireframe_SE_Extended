@@ -1,0 +1,8 @@
+{
+    "type": "RATING",
+    "data": {
+        "size": "M",
+        "rating": 8,
+        "numberOfOptions": 5
+    }
+}
